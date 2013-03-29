@@ -4,6 +4,10 @@ a:hover { color:#AA0000; font-weight:bold; }
 a:active { color:#AA0000; font-weight:bold; }
 
 
+body {
+font-family: 'Droid Sans';
+}
+
 h1 { 
 	font-family: 'Droid Serif', serif;
 	font-size:50px;
@@ -30,6 +34,8 @@ h3 {
 	}
 
 body {
+	background-image:url("/images/texture.png");
+	background-repeat:repeat;
 	width:1024px;
 	min-width:1024px;
 	margin-right:auto;
@@ -49,4 +55,26 @@ body {
 	width:333px;
 	padding-left:4px;
 	padding-right:4px;
+	}
+
+#main_floater {
+	height:50%;
+	margin-bottom:-75px;
+	}
+
+#main_container {
+	margin-left:100px;
+	margin-right:100px;
+	height:150px;
+	bottom:0px;
+	}
+
+#picture {
+	float:left;
+	width:400px;
+	}
+
+#about {
+	float:right;
+	width:400px;
 	}
